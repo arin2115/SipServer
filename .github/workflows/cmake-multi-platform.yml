@@ -70,4 +70,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: app
-        path: ${{ env.main_project_module }}/SipServer/build/Release/SipServer.exe
+        path: ${{ env.main_project_module }}/build/Release/SipServer.exe
